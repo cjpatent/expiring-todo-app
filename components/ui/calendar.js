@@ -1,1 +1,0 @@
-export const Calendar = ({ selected }) => <div className='calendar'>Selected Dates: {selected.map(date => date.toDateString()).join(', ')}</div>;
